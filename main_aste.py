@@ -13,7 +13,7 @@ main_layer = Layer()
 main_layer.add(spaceship)
 
 
-for _ in range(5):
+for _ in range(6):
     x = randint(64, 736)     #128/2 = 64 et 800-64=736
     y = randint(64, 536)     #600-64=536
 
