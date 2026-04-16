@@ -22,7 +22,7 @@ for _ in range(5):
         y = randint(64, 536)
 
     asteroid_position = (x, y)
-    asteroid_speed = randint(-50, 50), randint(-50, 50)
+    asteroid_speed = randint(-50, 100), randint(-50, 50)
     rotation_speed =(randint(-50, 50))
     asteroid = Asteroid(asteroid_position, asteroid_speed, rotation_speed)
    
