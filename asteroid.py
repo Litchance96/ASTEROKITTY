@@ -78,7 +78,7 @@ class Spaceship(SpaceObject):
         self.velocity =  0     #pixels/secondes
         self.engine_on = False
 #       une vitesse (speed.rotation) = des degres/secondes = angle/temps
-        self.acceleration = 250   #   pixels/secondes /secondes   (au carré)
+        self.acceleration = 300   #   pixels/secondes /secondes   (au carré)
         self.velocity_max = 100
         self.invicibility = False
         self.chrono = 0.
