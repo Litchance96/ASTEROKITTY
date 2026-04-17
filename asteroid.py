@@ -143,7 +143,7 @@ class Spaceship(SpaceObject):
         
         bullet_position = self.position[0] + decal_x, self.position[1] + decal_y
         
-        bullet_velocity = 300 + sqrt(self.speed[0]**2 + self.speed[1]**2)   #3."sqrt" = square roat : racine carré => on veut l'hypothenus, donc avec pythagore on doit faire la racine carré des carrés des deux côtés
+        bullet_velocity = 450 + sqrt(self.speed[0]**2 + self.speed[1]**2)   #3."sqrt" = square roat : racine carré => on veut l'hypothenus, donc avec pythagore on doit faire la racine carré des carrés des deux côtés
         speed_x = cos(angle)* bullet_velocity       #2. Puis on fait sqrt pour que le balles aillent plus vite que le vaisseau (exemple du train, ou du vaisseau (quand on sort du vaisseau on garde la meme vitesse du vaisseau, et les balles doivent aller plus vite, on rajoute l'intensité et la direction pour que les balles ne soient pas plus lentes que le vaisseau))
         speed_y = sin(angle)* bullet_velocity  #1. Pour que les balles aient la meme vitesse que le vaisseau
 
