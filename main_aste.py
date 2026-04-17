@@ -4,7 +4,7 @@ from asteroid import SpaceObject, RESOLUTION, Spaceship, Asteroid, Bullet  #Spac
 
 #RESOLUTION = (800, 600)
 
-init(RESOLUTION, "ASTRO-KITTY")
+init(RESOLUTION, "ASTRO-LITCHI")
 
 spaceship = Spaceship((400, 300)) 
 
